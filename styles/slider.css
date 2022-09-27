@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*
+ Ajatix Image/Banner Slider
+ Copyright (C) 2011-2016 Ajatix. All rights reserved.
+ http://www.ajatix.com
+ Unregistered copy.
+ Any usage except for the purpose of evaluation is strictly prohibited.
+*/
+.AJXIRbbHHGDA,.AJXIRbbHHGDA * {box-sizing:content-box;}
+.AJXIRbbHHGDA {position:relative;height:auto;max-width:4000px;min-width:1000px;width:100%;background-color:#ffffff;}
+.AJXIRbbHHGDA ul {border:0px;margin:0px;padding:0px;}
+.AJXIRbbHHGDA li {border:0px;margin:0px;padding:0px;list-style-type:none;}
+.AJXIRbbHHGDA img {vertical-align:middle;}
+.AJXIRbbHHGDA .ajxpics {min-width:1000px;max-width:4000px;width:100%;transform-origin:0 0;overflow:hidden;position:relative;-webkit-box-shadow:0 0 10px rgba(74,74,74,0.70);-moz-box-shadow:0 0 10px rgba(74,74,74,0.70);box-shadow:0 0 10px rgba(74,74,74,0.70);left:0px;}
+.AJXIRbbHHGDA .ajximg {width:100%;height:auto;border:none;display:block;}
+.AJXIRbbHHGDA .ajxcurdiv {position:absolute;top:0;left:0;}
+.AJXIRbbHHGDA .ajxcurimg {display:block;width:100%;border:none;}
+.AJXIRbbHHGDA .ajxcura {width:100%;display:block;}
+.AJXIRbbHHGDA .ajxforwardpic {max-width:4000px;min-width:1000px;width:100%;height:100%;overflow:hidden;position:absolute;top:0px;left:0px;}
+.AJXIRbbHHGDA .ajxslidediv {position:absolute;top:0px;width:300%;}
+.AJXIRbbHHGDA .ajxpics>ul {position:relative;left:0px;top:0px;}
+.AJXIRbbHHGDA .ajxpics>ul>li {max-width:4000px;min-width:1000px;width:100%;position:relative;}
+.AJXIRbbHHGDA .ajxrc {display:none;}
+.AJXIRbbHHGDA .ajxprev {position:absolute;width:80px;left:0;top:0;height:100%;background-image:url("data:image/gif;base64,AAAA");display:block;}
+.AJXIRbbHHGDA .ajxprevbutton {position:absolute;left:0;top:50%;width:40px;height:40px;margin-top:-20px;background:url(slider_files/previous.png);cursor: pointer;z-index:1;opacity:0;transition:opacity 0.3s linear;}
+.AJXIRbbHHGDA .ajxnext {position:absolute;width:80px;right:0;top:0;height:100%;background-image:url("data:image/gif;base64,AAAA");display:block;}
+.AJXIRbbHHGDA .ajxnextbutton {position:absolute;right:0;top:50%;width:40px;height:40px;margin-top:-20px;background:url(slider_files/next.png);cursor: pointer;z-index:1;opacity:0;transition:opacity 0.3s linear;}
+.AJXIRbbHHGDA .ajxprevbutton:hover, .AJXIRbbHHGDA .ajxnextbutton:hover, .AJXIRbbHHGDA .ajxprevbutton.ajxon, .AJXIRbbHHGDA .ajxnextbutton.ajxon {opacity:1;}
+.AJXIRbbHHGDA .ajxprevbutton.ajxoff, .AJXIRbbHHGDA .ajxnextbutton.ajxoff {opacity:0;cursor: auto;}
+.AJXIRbbHHGDA .ajxbtnwrap {position:relative;left:0;bottom:0;width:100%;overflow:hidden;height:23px;}
+.AJXIRbbHHGDA .ajxbtn {position:absolute;top:0px;height:23px;overflow:hidden;}
+.AJXIRbbHHGDA .ajxbtn ul li {position:relative;cursor:pointer;text-align:center;float:left;margin-top:4px;margin-bottom:4px;margin-right:4px;width:15px;height:15px;border-radius:100px;font-size:0;background:no-repeat transparent url(slider_files/nbbtn.png);}
+.AJXIRbbHHGDA .ajxbtn ul li.ajxcur {background:no-repeat transparent url(slider_files/nbbtnmo.png);}
+.AJXIRbbHHGDA .ajxleft {height:23px;position:relative;float:left;cursor:pointer;width:258px;background:center no-repeat url(slider_files/nbleft.png);}
+.AJXIRbbHHGDA .ajxright {height:23px;position:relative;float:left;cursor:pointer;width:258px;background:center no-repeat url(slider_files/nbright.png);}
+.AJXIRbbHHGDA .ajxleftd {cursor:default;background:center no-repeat url(slider_files/nbleftdis.png);}
+.AJXIRbbHHGDA .ajxrightd {cursor:default;background:center no-repeat url(slider_files/nbrightdis.png);}
+.AJXIRbbHHGDA .ajxright div, .AJXIRbbHHGDA .ajxleft div {height:15px;margin-top:4px;margin-bottom:4px;cursor:pointer;text-align:center;}
+.AJXIRbbHHGDA .ajxrightd div, .AJXIRbbHHGDA .ajxleftd div {cursor:default;}
+.AJXIRbbHHGDA .ajxnavpics {height:23px;position:relative;float:left;overflow:hidden;margin-left:4px;}
+.AJXIRbbHHGDA .ajxhide {display:none;}

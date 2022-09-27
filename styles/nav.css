@@ -1,0 +1,51 @@
+﻿/*
+	tswtabs.css		1.2.4
+	Please use the CSS Menu Button Wizard at
+		https://www.thesitewizard.com/wizards/css-menu-buttons.shtml
+	to generate your own customized menu buttons.
+*/
+#navigation {
+	border-top: 1px solid #ffffff;
+	border-bottom: 2px solid #808080;
+	background-color: #ffffff;
+}
+html>body #navigation {
+	overflow: hidden;
+}
+
+#navigation ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+}
+#navigation a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	padding: 5px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+}
+#navigation a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #1269B0;
+	background-color: #1269B0;
+}
+@font-face {
+    font-family: 'DIN Pro Regular';
+    src: url('../fonts/DINPro-Regular.eot');
+    src: local('DIN Pro Regular'), local('DINPro-Regular'),
+         url('../fonts/DINPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DINPro-Regular.woff') format('woff'),
+         url('../fonts/DINPro-Regular.svg') format('svg'),
+         url('../fonts/DINPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
