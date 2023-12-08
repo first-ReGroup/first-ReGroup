@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0794bd8-9c36-4812-9633-34a1b7b9d203" name="Default Changelist" comment="" />
+    <list default="true" id="b0794bd8-9c36-4812-9633-34a1b7b9d203" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/People.html" beforeDir="false" afterPath="$PROJECT_DIR$/People.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/Publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZYK/~$Yan Yi.docx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
